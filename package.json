@@ -1,0 +1,40 @@
+{
+  "name": "bootgly-docs-mcp",
+  "displayName": "Bootgly Docs MCP",
+  "description": "MCP server for Bootgly PHP Framework documentation. Search and access Bootgly docs directly from GitHub Copilot Chat.",
+  "version": "1.0.0",
+  "publisher": "bootgly",
+  "license": "MIT",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bootgly/bootgly_docs-mcp"
+  },
+  "homepage": "https://docs.bootgly.com",
+  "bugs": {
+    "url": "https://github.com/bootgly/bootgly_docs-mcp/issues"
+  },
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "AI",
+    "Other"
+  ],
+  "keywords": [
+    "mcp-server",
+    "mcp",
+    "bootgly",
+    "php",
+    "documentation",
+    "framework"
+  ],
+  "contributes": {
+    "mcpServers": {
+      "bootgly-docs": {
+        "type": "http",
+        "url": "https://docs.bootgly.com/mcp"
+      }
+    }
+  }
+}
